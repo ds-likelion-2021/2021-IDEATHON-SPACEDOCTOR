@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- 상단메뉴바 들어갈 위치 -->
+    <div class="menu">
+    <header>
+        <h2>(로고)우주닥터</h2>
+        <nav>
+            <ul>
+                <li><a href="#">실시간 찾기</a></li>
+                <li><a href="#">후기</a></li>
+                <li><a href="#">정보</a></li>
+                <li><a href="#"><b>마이페이지</b></a></li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+        </nav>
+        <img src="images/lion.svg" alt="프로필 사진" id="profile-lion">
+        <div class="mypage">
+              <b>김사자</b> 님
+        </div>
+        <img src="images/alarm.svg" alt="알람 확인하기" id="alarm">
+        <div class="logout">
+            <a href="#">로그아웃</a>
+        </div>
+    </header></div>
+
+    <div class="container">
+
+        <div class="middle-left">
+            <h3><a href="#">후기</a></h3></br>
+            <ul class="sub-menu">
+                <li><a href="#">피부과</a></li>
+                <li><a href="#">치과</a></li>
+                <li><a href="#">안과</a></li>
+                <li><a href="#">내과</a></li>
+                <br>
+                <li><a href="#">내과</a></li>
+                <li><a href="#">한의원</a></li>
+                <li><a href="#">소아청소년과</a></li>
+                <li><a href="#">산부인과</a></li>
+                <li><a href="#">이비인후과</a></li>
+                <li><a href="#">비뇨기과</a></li>
+                <br>
+                <li><a href="#">신경외과</a></li>
+                <li><a href="#">대장항문외과</a></li>
+                <li><a href="#">정형외과</a></li>
+                <li><a href="#">외과</a></li>
+                <li><a href="#">성형외과</a></li>
+                <br>
+                <li><a href="#">신경과</a></li>
+                <li><a href="#">재활의학과</a></li>
+                <br>
+                <li><a href="#">마취통증의학과</a></li>
+                <li><a href="#">영상,검진의학과</a></li>
+                <li><a href="#">정신건강의학과</a></li>
+                <br>
+                <li><a href="#">응급실</a></li>
+                <li><a href="#">종합병원</a></li>
+                <li><a href="#">약국</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="main">
+        <div class="top">
+            <input type="search" placeholder="분야/지역 검색">
+            <i class="fa fa-search fa-lg"></i>
+
+            <select name="filter" id="filter"  required autofocus>
+                <option value="new" selected>최신순</option>
+                <option value="polular">인기순</option>
+                <option value="watch">조회순</option>
+            </select>
+      
+            <div class = "write">
+                <button id="write">후기쓰기</button>
+                <i class="fa fa-pencil fa-lg"></i>
+            </div>
+        </div>
+
+        <div id="keyword">
+            <button class="item" style="background-color: rgb(117, 71, 163); color : white;">치과</button>
+            <button class="item">산부인과</button>
+            <button class="item">친절</button>
+            <button class="item">코로나 검사</button>
+            <button class="item">정형외과</button>
+            <button class="item">여의사</button>
+            <button class="item">주차시설</button>
+            <button class="item">아스트라제네카 부작용</button>
+            <button class="item">진단서</button>
+            <button class="item">추천</button>
+        </div>
+    
+        <div class="grid">
+            <section class="section">
+                <i class="fa fa-plus fa-lg"></i>                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 href="" class="name">덕새 치과&nbsp</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half"></i>
+                
+                <div class="article">
+                    <br>그냥 집에서 제일 가까운 치과길래 가봤어요. 
+                    생긴지 얼마 안된 것 같고 교통편도 편리해서 좋았어요. 
+                    충치치료 받았는데 과잉진료 없는 것 같아서 마음에 들고
+                    원장님도 친절하시네요. 
+                </div>
+                <p>&nbsp&nbsp&nbsp&#x1F493 <strong>좋아요 4</strong></p>
+                
+                
+            </section>
+            <section class="section">
+                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 class="name">덕새 치과</h3>
+                <i class="fa fa-star" ></i>
+                <article class="article">
+                    덕새 치과 후기 내용
+                </article>
+            </section>
+            <section class="section">
+                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 class="name">덕새 치과</h3>
+                <article class="article">
+                    덕새 치과 후기 내용
+                </article>
+            </section>
+            <section class="section">
+                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 class="name">덕새 치과</h3>
+                <article class="article">
+                    덕새 치과 후기 내용
+                </article>
+            </section>
+            <section class="section">
+                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 class="name">덕새 치과</h3>
+                <article class="article">
+                    덕새 치과 후기 내용
+                </article>
+            </section>
+            <section class="section">
+                <img src="images/receipt.jpg" height="110" width="110">
+                <h3 class="name">덕새 치과</h3>
+                <article class="article">
+                    덕새 치과 후기 내용
+                </article>
+            </section>
+     
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
