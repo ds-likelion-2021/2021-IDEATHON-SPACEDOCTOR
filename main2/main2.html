@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우주닥터</title>
+    <link rel="stylesheet" href="main2.css">
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    
+</head>
+<body class="container">
+    
+    <header>
+        <ul class="header-list">
+            <li><div><img src="우주닥터로고.png" width="160" height="55"></div></li>
+            <li>
+                <div>
+                    <ul class="menu-ul">
+                        <li><a href="#">실시간찾기</a></li>
+                        <li><a href="#">후기</a></li>
+                        <li><a href="#">정보</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!--드롭다운 메뉴바-->
+            <li>
+                <div>
+                    <input type="checkbox" id="menuicon">
+                    <label for="menuicon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="sidebar">
+                        <ul class="sitemap-ul">
+                            <li><a href="#"><b>실시간찾기</b></a>
+                                <ul>
+                                    <li><a href="#">분야별</a></li>
+                                    <li><a href="#">위치별</a></li>
+                                    <li><a href="#">증상별</a></li>
+                                    <li><a href="#">시간별</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><b>후기</b></a>
+                                <ul>
+                                    <li><a href="#">내과</a></li>
+                                    <li><a href="#">외과</a></li>
+                                    <li><a href="#">신경외과</a></li>
+                                    <li><a href="#">소아과</a></li>
+                                    <li><a href="#">산부인과</a></li>
+                                    <li><a href="#">피부과</a></li>
+                                    <li><a href="#">안과</a></li>
+                                    <li><a href="#">응급실</a></li>
+                                    <li><a href="#">종합병원</a></li>
+                                    <li><a href="#">약국</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><b>정보</b></a>
+                                <ul>
+                                    <li><a href="#">전문가 Q&A</a></li>
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">비급여진료비</a></li>
+                                    <li><a href="#">의료장비 보유현황</a></li>
+                                    <li><a href="#">건강정보</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><b>마이페이지</b></a>
+                                <ul>
+                                    <li><a href="#">기본정보</a></li>
+                                    <li><a href="#">찜한병원</a></li>
+                                    <li><a href="#">나의진료기록</a></li>
+                                    <li><a href="#">복약관리</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><b>이벤트</b></a>
+                                <ul>
+                                    <li><a href="#">진행중인 이벤트</a></li>
+                                    <li><a href="#">지난 이벤트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>			
+                </div>
+            </li>
+        </ul>
+    </header>
+    <section>
+
+         <!--병원종류-->
+    
+
+            <!--검색창-->
+    <div class="top">
+        <input type="search" placeholder="병원이름/지역검색">
+            <i class="fa fa-search fa-lg"></i>
+        </div>     
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">병원전체</button>
+        <div class="dropdown-content">
+          <a href="#"><img src="내과.png" width="20px" height="20px">내과/소아청소년과/이비인후과</a>
+          <a href="#"><img src="내과.png" width="20px" height="20px">가정의학과/신경과</a>
+          <a href="#"><img src="외과.png" width="20px" height="20px">외과/정형외과</a>
+          <a href="#"><img src="외과.png" width="20px" height="20px">신경외과/재활의학과</a>
+          <a href="#"><img src="외과.png" width="20px" height="20px">성형외과/피부과</a>
+          <a href="#"><img src="산부인과.png" width="20px" height="20px">산부인과</a>
+          <a href="#"><img src="치과.png" width="20px" height="20px">치과</a>
+          <a href="#"><img src="안과.png" width="20px" height="20px">안과</a>
+          <a href="#"><img src="영상검진의학과.png" width="20px" height="20px">영상검진의학과</a>
+          <a href="#"><img src="응급실.png" width="20px" height="20px">응급실</a>
+          <a href="#"><img src="정신병원.png" width="20px" height="20px">정신병원</a>
+          <a href="#"><img src="대장.png" width="20px" height="20px">비뇨기과/대장항문외과</a>
+          <a href="#"><img src="한의원.png" width="20px" height="20px">한의원</a>
+          <a href="#"><img src="약국3.png" width="20px" height="20px">약국</a>
+
+        </div>
+      </div>
+
+    </section>
+
+   
+
+    
+    <!--지도 삽입-->
+    <div class="map">
+        
+        <iframe src="https://www.google.com/maps/d/embed?mid=1l1Y4nVYflqVmHhr9PQ8UqPxoSRMiXomD" width="83%" height="650"></iframe>
+    </div>
+    <div class="iframe">
+        
+           <iframe name="iframe1" src="병원정보.html" width="250" height="650" seamless></iframe>
+          
+       <a target="iframe1" href="병원정보.html"></a>
+   
+   </div>
+
+    </body>
+    <div class="footer">
+        <footer>
+            Copyright (c) 2021 우주닥터
+        </footer>
+    </div>
+    
+</html>
+
+
